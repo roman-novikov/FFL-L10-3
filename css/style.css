@@ -62,21 +62,21 @@ textarea {
 /* --------------- */
 @font-face {
   font-family: "Gilroy";
-  src: url("../../fonts/Gilroy-Bold.woff2") format("woff2"), url("../../fonts/Gilroy-Bold.woff") format("woff");
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("../../fonts/Gilroy-Medium.woff2") format("woff2"), url("../../fonts/Gilroy-Medium.woff") format("woff");
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("../../fonts/Gilroy-Regular.woff2") format("woff2"), url("../../fonts/Gilroy-Regular.woff") format("woff");
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -168,7 +168,7 @@ textarea {
   margin: -2px 0 0 0;
   width: 10px;
   height: 5px;
-  background: url(../../img/icons/icon-row-menu.png) 0 0 no-repeat;
+  background: url(../img/icons/icon-row-menu.png) 0 0 no-repeat;
 }
 .menu__sublist {
   display: none;
@@ -233,7 +233,7 @@ textarea {
   top: 50%;
   right: 0;
   margin: -10px 10px 0 0;
-  background: url(../../img/icons/icon-search.png) center no-repeat;
+  background: url(../img/icons/icon-search.png) center no-repeat;
 }
 .form-search__btn:hover, .form-search__btn:focus {
   outline: none;
@@ -269,7 +269,7 @@ textarea {
   margin: 0 0 0 0;
   width: 10px;
   height: 100%;
-  background: url(../../img/icons/icon-row-menu.png) center no-repeat;
+  background: url(../img/icons/icon-row-menu.png) center no-repeat;
 }
 .user__item:hover .menu__sublist {
   display: block;
@@ -362,7 +362,7 @@ textarea {
   opacity: 0;
 }
 .input-checkbox:checked + .label--check::before {
-  background: #fff url(../../img/icons/check.png) center/cover no-repeat;
+  background: #fff url(../img/icons/check.png) center/cover no-repeat;
 }
 .input-checkbox:focus + .label::before {
   box-shadow: 0 0 5px 0px #fff;
@@ -434,7 +434,7 @@ textarea {
   left: 0;
   width: 20px;
   height: 20px;
-  background: url(../../img/icons/icon-row-form.png) center no-repeat;
+  background: url(../img/icons/icon-row-form.png) center no-repeat;
 }
 .form-link--white:hover, .form-link--white:focus {
   color: #fff;
